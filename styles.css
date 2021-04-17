@@ -8,7 +8,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navigation-wrapper {
-   height: 190px;
+   height: 200px;
+   background-image: url(assets/craft-image.JPG);
    background-color: #86d1cf;
    color: #ffffff;
    display: flex;
@@ -17,9 +18,22 @@ h1, h2, h3, h4, h5, h6 {
    padding: 60px 100px;
 }
 
-.left-column {
-    display: flex;
-    align-items: center;
+.body {
+   background-image: url(assets/craft-image.JPG);
+   background-color: #86d1cf;
+   /* background-attachment: fixed; */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+
+.title_header {
+   background-color: #86d1cf;
+   /* background-attachment: fixed; */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .header-styles {
@@ -42,6 +56,22 @@ h1, h2, h3, h4, h5, h6 {
 .logo img {
    width: 216px;
    height: 100%;
+   background-color: #99ffff;
+}
+
+
+
+.craft-picture {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  z-index: -1;
+}
+
+.portfolio-picture {
+   position: relative;
+   top: 0px;
+   z-index: 1;
 }
 
 .link-wrapper {
@@ -92,6 +122,10 @@ h1, h2, h3, h4, h5, h6 {
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   /* position: absolute; */
+   /* left: 0px; */
+   /* top: 100px;
+   z-index: -1; */
 }
 
 .top-heading {
@@ -113,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .features-section {
-   height: 400px;
+   height: 200px;
    background-image: url(assets/rainbow.jpg);
    background-color: #41ecec;
    border-top: 10px solid white;
