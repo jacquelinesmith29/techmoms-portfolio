@@ -3,136 +3,90 @@
 
 <head>
     <meta charset="utf-8" />
-    <!-- <title="header">Jackie Smith</h1> -->
-
-    <html>
-    <title>Jackie Smitth</title>
+    <title>Jackie Smith</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet">
+    <link rel=picture href="assets/craft-image.JPG" image>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
     <div class="container">
 
-        <h2 class="title_header">Jackie Smith</h2>
+        <div>
+            <h2>Jackie Smith</h2>
+        </div>
 
-        <!-- <p>An horizontal bar is a common web design element:</p> -->
+        <div class="link-wrapper">
+            <div class="nav-link">
+                <a href="https://www.linkedin.com/in/jackie-p-smith" target="_blank">Linked In</a>
+            </div>
 
+            <div class="nav-link">
+                <a href="https://www.facebook.com/jackie.p.smith.77" target="_blank">Facebook</a>
+            </div>
 
+            <div class="nav-link">
+                <a href="https://www.instagram.com/jacquelinesmith29/" target="_blank">Instagram</a>
+            </div>
 
-
+            <div class="nav-link">
+                <a href="https://twitter.com/JPSmith29" target="_blank">Twitter</a>
+            </div>
+        </div>
     </div>
-
-    </div>
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<link rel=picture href="assets/craft-image.JPG" image>
-<meta name="viewport" content="width=device-width initial-scale=1">
-
-<link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <!-- NAVIGATION -->
-
-    <!-- <div>
-        <img class="craft-picture" src="assets/IMG_4225 (1).JPG" alt="craft picture" width="100%">
-        <img class="portfolio-picture" src="assets/IMG_5222.JPG" alt="logo" height="500" />
-
-    </div> -->
-
-
-
-
-
-
-
-
-
 
     <div class="body">
         <div class="header"></div>
         <div class="logo">
             <img src="assets/IMG_5222.JPG" alt="logo" height="1000" />
         </div>
-        <div class="link-wrapper">
-            <div class="nav-link">
-                <a href="#">Linked In</a>
-            </div>
 
-            <div class="nav-link">
-                <a href="#">Facebook</a>
-            </div>
-
-            <div class="nav-link">
-                <a href="#">Instagram</a>
-            </div>
-
-            <div class="nav-link">
-                <a href="#">Twitter</a>
-            </div>
-        </div>
     </div>
-
-    <!-- CONTENT -->
-    <!-- <div class="homepage">
-        <div class="top-heading">
-            <h1>jackie smith</h1>
-        </div>
-
-        <div class="bottom-heading">
-            <h3>about</h3>
-        </div>
-    </div> -->
 
     <!-- CONTENT FEATURES -->
     <div class="features-section">
         <div class="columns-wrapper">
+            <!-- <a href="pages/contact.html"></a> -->
             <div class="column">
-                <i class="fas fa-envelope-open-text"></i>
-                <p>contact</p>
+                <a href="pages/contact.html">
+                    <i class="fas fa-envelope-open-text home-icon"></i>
+                    <p class="test">Contact</p>
+                    <p class="bottom-text">
+                        Email, text, or call
+                    </p>
+                </a>
 
-                <p>
-                    Email, text, or call
-                </p>
+
             </div>
 
             <div class="column">
-                <i class="fas fa-heart"></i>
-                <p>About</p>
+                <a href="pages/about.html">
+                    <i class="fas fa-heart home-icon"></i>
+                    <p class="test">About</p>
 
-                <p>
-                  Fun facts that you probably don't want to know.
-                </p>
+                    <p class="bottom-text">
+                        Fun facts that you probably don't want to know.
+                    </p>
+                </a>
             </div>
 
             <div class="column">
-                <i class="fab fa-youtube-square"></i>
-                <p>Youtube</p>
+                <a href="pages/youtube.html">
+                    <i class="fab fa-youtube-square home-icon "></i>
+                    <p class="test">Youtube</p>
 
-                <p>
-                    Check out my youtube videos!
-                </p>
+                    <p class="bottom-text">
+                        Check out my youtube videos!
+                    </p>
+                </a>
             </div>
         </div>
     </div>
@@ -142,6 +96,8 @@
 
 
     </div>
+    <script src="app.js"></script>
 </body>
+
 
 </html>
